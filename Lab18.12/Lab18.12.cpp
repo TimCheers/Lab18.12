@@ -76,6 +76,7 @@ int main()
 	ShowSet(A);
 	cout << "\n-----------------------------------------------------------------\n";
 	int avg = FindAVG(A);
+	cout << "\nСреднее арефметическое: " << avg << endl;
 	auto iter = A.begin();
 	Tset B;
 	for (iter; iter != A.end(); iter++)
